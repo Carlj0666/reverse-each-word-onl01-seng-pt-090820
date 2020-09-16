@@ -4,8 +4,8 @@ def reverse_each_word(string)
   array = string.split(" ")
   array.each do |word|
   word.reverse!
-
-    string.join(word)
+  string += word
+    string.join(" ")
     puts string
             binding.pry
 end
