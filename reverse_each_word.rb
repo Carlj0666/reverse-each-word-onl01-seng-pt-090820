@@ -9,6 +9,6 @@ def reverse_each_word(string)
   
 end
 new_string.join(" ")
-  binding.pry
+  #binding.pry
     return new_string
 end
