@@ -12,4 +12,3 @@ new_string.join(" ")
   #binding.pry
     
 end
-return new_string
