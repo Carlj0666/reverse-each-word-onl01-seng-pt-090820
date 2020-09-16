@@ -9,6 +9,7 @@ def reverse_each_word(string)
   end
   new_string.join(" ")
 end
+puts new_string
 
 def reverse_each_word(string)
   new_string = []
@@ -19,3 +20,4 @@ def reverse_each_word(string)
   end
   new_string.join(" ")
 end
+puts new_string
